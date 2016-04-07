@@ -8,7 +8,7 @@ the one behind my most successful (?!) game, [MoonRogue](/games/moonrogue.html).
 My contribution is rather minimal, just a more detailed error message in a special case.
 
 Before:
-![Before](dualitor_before.png)
+![Before](/images/posts/dualitor_before.png)
 
 After:
-![After](dualitor_after.png)
+![After](/images/posts/dualitor_after.png)
