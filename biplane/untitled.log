@@ -1,0 +1,24 @@
+	Exporter version: 4.4.2, Blender version: 2.76 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  true
+		inline textures:  false
+		texture directory:  /home/lorinc/Desktop/blog_page/blogpage/biplane/
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of mesh:  biplane
+		processing begun of Standard material:  Material.001
+			Diffuse texture found "Texture"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  2004
+		num normals        :  2004
+		num uvs            :  4008
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  2004
+	processing begun of light (SUN):  Sun
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.0487 secs

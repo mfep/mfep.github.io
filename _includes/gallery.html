@@ -1,0 +1,15 @@
+<div class="visuals-images">
+
+  <h2>{{ page.gallery-title }}</h2>
+
+  {% if page.gallery-description %}
+  <p>
+    {{ page.gallery-description }}
+  </p>
+  {% endif %}
+
+  {% for entry in site.static_files %}{% if entry.path contains page.gallery-path %}
+    <div class="visuals-imagecontainer"><a href="{{entry.path}}"><div class="grid-image" style="background-image: url({{entry.path}});"></div></a></div>
+  {% endif %}{% endfor %}
+
+</div>

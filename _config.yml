@@ -1,0 +1,13 @@
+# Site settings
+title: mfeproject
+description: Modern Free Electro Project
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+# destination: ../mfep.github.io/
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+google_analytics: UA-75513642-1
+babylon_source: http://cdn.babylonjs.com/2-3/babylon.noworker.js

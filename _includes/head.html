@@ -1,0 +1,16 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,400italic,500,700,300italic' rel='stylesheet' type='text/css'>
+
+  {% if page.babylon %}
+  <script type="text/javascript" src={{ site.babylon_source }}></script>
+  {% endif %}
+
+</head>

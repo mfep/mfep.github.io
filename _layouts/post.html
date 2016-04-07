@@ -1,0 +1,15 @@
+---
+layout: default-base
+---
+
+<div class="blogpost container">
+
+  <h2 class="page-title">{{ page.title }}</h2>
+  <h5>{{ page.date | date: "%B %e, %Y" }}</h5>
+  <div class="blogpost-container">
+
+    {{ content }}
+
+    <a class="read-more" href="/index.html">Return</a>
+  </div>
+</div>
