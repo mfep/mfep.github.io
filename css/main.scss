@@ -1,7 +1,7 @@
 ---
 ---
 @import "reset";
-//@import "syntax-highlighting";
+@import "syntax-highlighting";
 //@import "components/materialbox";
 //@import "materialize"
 
@@ -38,6 +38,10 @@ body {
   width: 70px;
   height: 70px;
   float: left;
+}
+
+.site-title a {
+  color: $main-font-color;
 }
 
 .site-title-info {
@@ -222,7 +226,7 @@ a:hover {
 
 .visuals-imagecontainer {
   width: 33%;
-  height: 280px;
+  height: 0.273 * $container-width;
   display: inline-block; }
 
 //.visuals-imagecontainer img {
