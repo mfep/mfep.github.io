@@ -9,7 +9,7 @@
   {% endif %}
 
   {% for entry in site.static_files %}{% if entry.path contains page.gallery-path %}
-    <div class="visuals-imagecontainer"><a href="{{entry.path}}" target="_blank"><div class="grid-image" style="background-image: url({{entry.path}});"></div></a></div>
+    <div class="visuals-imagecontainer"><a href="{{ entry.path }}" data-lightbox="{{ page.gallery-title }}"><img class="grid-image" src="{{ entry.path }}" alt="{{ page.gallery-title }}"/></a></div>
   {% endif %}{% endfor %}
 
 </div>
